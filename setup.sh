@@ -19,3 +19,5 @@ sudo -u postgres psql -c "ALTER ROLE globechaintest superuser;"
 python3 manage.py migrate
 
 sudo -u postgres psql -c "ALTER ROLE globechaintest nosuperuser;"
+
+python3 manage.py runserver
