@@ -95,7 +95,7 @@ WSGI_APPLICATION = 'globechain.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'globechain',
+        'NAME': 'globechaintest',
         'USER': 'globechaintest',
         'PASSWORD': 'globechaintest',
         'HOST': 'localhost',
