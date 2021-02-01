@@ -98,7 +98,7 @@ DATABASES = {
         'NAME': 'globechaintest',
         'USER': 'globechaintest',
         'PASSWORD': 'globechaintest',
-        'HOST': 'localhost',
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
